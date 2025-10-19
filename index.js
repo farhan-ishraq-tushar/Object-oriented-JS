@@ -9,9 +9,9 @@
         return (`My full name is ${person.first_name} ${person.last_name}`)
     }
  }
-
+ /*
  console.log(person)
- /* Output:
+ // Output:
  {
   first_name: 'Farhan',
   last_name: 'Ishraq',
@@ -20,9 +20,13 @@
   isBangladeshi: true,
   getName: [Function: getName]
 }
+
+--------------------------------------------------
+console.log(person.getName()) // Output: My full name is Farhan Ishraq
 */
 
- console.log(person.getName()) // Output: My full name is Farhan Ishraq
+
+
 
 
 // -----------------------------------------------------------------------------
@@ -67,25 +71,15 @@ let personInstance = new myPerson(); // we can skip 'new' keyword part. It is op
 /*
 console.log(personInstance)
 // Output: 
-{
-  first_name: 'Farhan',
-  last_name: 'Ishraq',
-  age: 34,
-  city: 'Savar',
-  isBangladeshi: true,
-  getName: [Function: getName]
-}
-My full name is Farhan Ishraq
-myPerson {
-  firstName: 'Farhan',
-  lastName: 'Ishraq',
-  age: 34,
-  city: 'Dhaka',
-  isBangladeshi: true,
-  getName: [Function (anonymous)]
-}
-*/
+    myPerson {
+        firstName: 'Farhan',
+        lastName: 'Ishraq',
+        age: 34,
+        city: 'Dhaka',
+        isBangladeshi: true,
+        getName: [Function (anonymous)]
+-----------------------------------------------------------
 
-/*
 console.log(personInstance.firstName) //Output: Farhan
+}
 */
