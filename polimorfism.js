@@ -1,0 +1,1 @@
+// Polymorphism -> The term "polymorphism" originates from Greek, meaning "many forms." In programming it refers to the ability of an object, method, or operator to take on multiple forms or exhibit different behaviors depending on the context.In JS Inheritance, Overriding, Overloading etc are the part of polymorphism. 

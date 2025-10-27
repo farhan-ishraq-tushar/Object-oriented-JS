@@ -3,8 +3,7 @@
 /*
     - OOP like Java or C++, method overloading allows.
     - JavaScript has no direct support for method overloading.
-    - Yet, you can simulate method overloading by examining the number
-      of arguments.
+    - Yet, you can simulate method overloading by examining the number of arguments.
 
 */
 class myClass{
